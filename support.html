@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- common css -->
+    <style>
+        .red_color {
+            color: #ee1c47;
+        }
+        .bg_red {
+            background: #ee1c47;
+        }
+        .h_color {
+            color: #525252;
+        }
+        .p_color {
+            color: #666666;
+        }
+        .a_hover_two:hover{
+            color: #ee1c47 !important;
+        }
+        .a_hover:hover{
+            color: #000000 !important;
+        }
+        .p_hover:hover {
+            color: #ea2e02;
+        }
+        .bg_black {
+            background: #000000;
+        }
+        .footer_bg{
+            background: #eaeaea;
+        }
+        .cmn_btn:hover {
+            background: #000000;
+            color: #fff;
+        }
+        .df_btn:hover {
+            background: #ea2e02;
+            color: #fff;
+        }
+        .white_color {
+            color: #fff;
+        }
+        .bg_white {
+            background: #fff;
+        }
+        .form-control:focus {
+            border: 2px solid #e62e04;
+        }
+        .li_hover:hover {
+            color: #e62e04;
+        }
+        .facebook{
+            background: #3c5997;
+            color: #ffff;
+        }
+        .facebook_hover:hover{
+            color: #3c5997;
+            background: #ffff;
+        }
+        .twitter{
+            background: #1ea1f1;
+            color: #ffff;
+        }
+        .twitter_hover:hover{
+            color: #1ea1f1;
+            background: #fff;
+        }
+        .instagram{
+            background: #bd32a2;
+            color: #ffff;
+        }
+        .instagram_hover:hover{
+            color: #bd32a2;
+            background: #fff;
+        }
+        .youtube{
+            background: #ff0000;
+            color: #ffff;
+        }
+        .youtube_hover:hover{
+            color: #ff0000;
+            background: #fff;
+        }
+        .linkedinf{
+            background: #0070ac;
+            color: #ffff;
+        }
+        .linkedinf_hover:hover{
+            color: #0070ac;
+            background: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- ================================
+            header part start
+   ======================================  -->
+   <header class="bg_red">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-9 col-8">
+                <div class="one">
+                    <p><a href="tel:1234 567 890" class="white_color a_hover"><i class="fas fa-phone"></i>(+880) 1311932840</a>
+                    </p>
+                    <p><a href="mailto:gyan@gmail.com" class="white_color a_hover d-none d-md-block"><i
+                      class="fas fa-envelope"></i>kinivalo@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-4 text-end">
+                <div class="social_icon">
+                    <a class="white_color a_hover" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="white_color a_hover" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="white_color a_hover" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="white_color a_hover" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- ================================
+       middle header part start
+=================================== -->
+<section id="middle">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-6">
+            <div class="header_logo">
+                <img src="images/logo.png" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 order-lg-2">
+            <div class="main">
+                <div class="tracking_btn">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg_red white_color cmn_btn order_track"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Order Track
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">ট্র্যাক অর্ডার রেকর্ড
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control"
+                                                placeholder="ইংরেজিতে আপনার মোবাইল নাম্বার লিখুন">
+                                        </div>
+                                        <div class="mb-3">
+                                            <button type="button" class="btn bg_red white_color w-100">সার্চ
+                                                করুন</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login_part">
+                    <ul>
+                        <button type="button" class="btn signin p_color" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            <li class="nav-item"><i class="fa-regular fa-user"></i></li>
+                        </button>
+                        <ul>
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">login to</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/logo.png" width="150" class="img-fluid" alt="">
+                                            <form action="">
+                                                <div class="mb-4">
+                                                    <input type="number" class="form-control" placeholder="+88">
+                                                </div>
+                                                <div class="mb-3 text-center">
+                                                    <button type="submit" class="btn">Continue with
+                                                        phone</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="card-body">
+                                    <li><a href="project.html" class="p_color p_hover">My Profile</a></li>
+                                    <li><a href="project.html" class="p_color p_hover">My Orders</a></li>
+                                    <li><a href="project.html" class="p_color p_hover">My WishList</a></li>
+                                    <li><a href="project.html" class="p_color p_hover">My Address</a></li>
+                                </div> -->
+                        </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="search-form">
+                <input class="form-control" placeholder="সার্চ করুন.....">
+                <button class=" p_color p_hover search_btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+<!-- ==============================
+Navbar  part start
+===================================-->
+
+<div class="header_bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 m-auto">
+                <nav class="navbar navbar-expand-lg d-none d-lg-block">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active p_color p_hover" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item li1">
+                                <a class="nav-link p_color p_hover" href="">Skin Care</a>
+                                <ul class="bg_white">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <div class="nav_head">
+                                                    <div class="sub_category_title d-flex">
+                                                        <img src="images/category.webp" height="30px" width="30px" alt="">
+                                                        <h3>Shop Pages</h3>
+                                                    </div>
+                                                    <ul>
+                                                        <li><a href="banside.html" class="p_color p_hover">Banner
+                                                                With Sidebar</a></li>
+                                                        <li><a href="boxside.html" class="p_color p_hover">Boxed
+                                                                Banner</a></li>
+                                                        <li><a href="fullwidthside.html"
+                                                                class="p_color p_hover">Full Width Banner</a></li>
+                                                        <li><a href="horizentalbanside.html"
+                                                                class="p_color p_hover">Horizontal
+                                                                Filter</a></li>
+                                                        <li><a href="offcanvus.html" class="p_color p_hover">Off
+                                                                Canvas Sidebar</a></li>
+                                                        <li><a href="ajaxscrolling.html"
+                                                                class="p_color p_hover">Infinite Ajax Scroll</a>
+                                                        </li>
+                                                        <li><a href="rightsiderbar.html"
+                                                                class="p_color p_hover">Right Sidebar</a></li>
+                                                        <li><a href="fullwidthside.html"
+                                                                class="p_color p_hover">Full Width Sidebar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="nav_head">
+                                                    <div class="sub_category_title d-flex">
+                                                        <img src="images/category.webp" height="30px" width="30px" alt="">
+                                                        <h3>Shop Pages</h3>
+                                                    </div>
+                                                    <ul>
+                                                        <li><a href="column_3.html" class="p_color p_hover">3
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_4.html" class="p_color p_hover">4
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_5.html" class="p_color p_hover">5
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_6.html" class="p_color p_hover">6
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_7.html" class="p_color p_hover">7
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_8.html" class="p_color p_hover">8
+                                                                Columns Mode</a></li>
+                                                        <li><a href="listmode.html" class="p_color p_hover">List
+                                                                Mode</a></li>
+                                                        <li><a href="Listmode_sidebar.html"
+                                                                class="p_color p_hover">List Mode With
+                                                                Sidebar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="nav_head">
+                                                    <h3>Product Pages</h3>
+                                                    <ul>
+                                                        <li><a href="column_3.html" class="p_color p_hover">3
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_4.html" class="p_color p_hover">4
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_5.html" class="p_color p_hover">5
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_6.html" class="p_color p_hover">6
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_7.html" class="p_color p_hover">7
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_8.html" class="p_color p_hover">8
+                                                                Columns Mode</a></li>
+                                                        <li><a href="listmode.html" class="p_color p_hover">List
+                                                                Mode</a></li>
+                                                        <li><a href="Listmode_sidebar.html"
+                                                                class="p_color p_hover">List Mode With
+                                                                Sidebar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="nav_head">
+                                                    <h3>Product Layouts</h3>
+                                                    <ul>
+                                                        <li><a href="column_3.html" class="p_color p_hover">3
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_4.html" class="p_color p_hover">4
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_5.html" class="p_color p_hover">5
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_6.html" class="p_color p_hover">6
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_7.html" class="p_color p_hover">7
+                                                                Columns Mode</a></li>
+                                                        <li><a href="column_8.html" class="p_color p_hover">8
+                                                                Columns Mode</a></li>
+                                                        <li><a href="listmode.html" class="p_color p_hover">List
+                                                                Mode</a></li>
+                                                        <li><a href="Listmode_sidebar.html"
+                                                                class="p_color p_hover">List Mode With
+                                                                Sidebar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item li2">
+                                <a class="nav-link p_color p_hover" href="vendor.html">Vendor</a>
+                                <ul class="bg_white">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="nav_head">
+                                                    <h3>Dokan</h3>
+                                                    <ul>
+                                                        <li><a href="dokan_store_list.html">Store List</a></li>
+                                                        <li><a href="dokan_store.html">Store</a></li>
+                                                        <li><a href="account.html">Dashboard</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav_head">
+                                                    <h3 class="h3">Wcfm</h3>
+                                                    <ul>
+                                                        <li><a href="wc_store_list.html">Store List</a></li>
+                                                        <li><a href="wc_store.html">Store</a></li>
+                                                        <li><a href="account.html">Dashboard</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="nav_head">
+                                                    <h3>WC Marketplace</h3>
+                                                    <ul>
+                                                        <li><a href="dokan_store_list.html">Store List</a></li>
+                                                        <li><a href="dokan_store.html">Store</a></li>
+                                                        <li><a href="account.html">Dashboard</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nav_head">
+                                                    <h3 class="h3">WC Vendors</h3>
+                                                    <ul>
+                                                        <li><a href="wc_store_list.html">Store List</a></li>
+                                                        <li><a href="wc_store.html">Store</a></li>
+                                                        <li><a href="account.html">Dashboard</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item li3">
+                                <a class="nav-link p_color p_hover" href="blog.html">Blog</a>
+                                <ul class="bg_white">
+                                    <li>
+                                        <div class="nav_head">
+                                            <ul>
+                                                <li><a href="classic.html">Classic</a></li>
+                                                <li><a href="list.html">Listing</a></li>
+                                                <li><a href="grid.html">Grid<i
+                                                            class="fa-solid fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="grid.html">Grid 2 Columns</a></li>
+                                                        <li><a href="grid.html">Grid 3 Columns</a></li>
+                                                        <li><a href="grid.html">Grid 4 Columns</a></li>
+                                                        <li><a href="grid.html">Grid Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="masanry.html">Masonry<i
+                                                            class="fa-solid fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="masanry.html">Masonry 2 Columns</a></li>
+                                                        <li><a href="masanry.html">Masonry 3 Columns</a></li>
+                                                        <li><a href="masanry.html">Masonry 4 Columns</a></li>
+                                                        <li><a href="masanry.html">Masonry Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="mgrid.html">Mask<i
+                                                            class="fa-solid fa-angle-right"></i></a>
+                                                    <ul>
+                                                        <li><a href="mgrid.html">Mask Grid</a></li>
+                                                        <li><a href="mgrid.html">Mask Masonry</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="spost.html">Single Post</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item li4">
+                                <a class="nav-link p_color p_hover" href="#">Pages</a>
+                                <ul class="bg_white">
+                                    <li>
+                                        <div class="nav_head">
+                                            <ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="contact.html">Contact Us</a></li>
+                                                <li><a href="bevendor.html">Become a Vendor</a></li>
+                                                <li><a href="#">FAQs</a></li>
+                                                <li><a href="error.html">Error 404</a></li>
+                                                <li><a href="commingsoon.html">Coming Soon</a></li>
+                                                <li><a href="whilshite.html">Wishlist</a></li>
+                                                <li><a href="checkuot.html">Cart</a></li>
+                                                <li><a href="checkuot.html">Checkout</a></li>
+                                                <li><a href="compare.html">Compare</a></li>
+                                                <li><a href="account.html">My account</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item "> <a class="nav-link p_color p_hover"
+                                    href="element.html">Elements</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="moblie_nav d-block d-lg-none">
+                <div class="menu_toggle">
+                    <i class="fa-solid fa-bars red_color"></i>
+                </div>
+                <!-- <a class="aimg" href="index.html">
+                    <img src="images/logo1.png" alt="logo">
+                </a> -->
+                <div class="nav_menu">
+                    <div class="m_logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <div class="nv_cross">
+                        <i class="fa-solid fa-xmark "></i>
+                    </div>
+                    <div class="main_mobile_nav">
+                        <div class="mobile_head">
+                            <h2 id="mbtn2">Categories</h2>
+                        </div>
+                        <div class="nav_mob_wrap">
+                            <div class="mobile_nav_item2" id="mitem2">
+                                <ul>
+                                    <li><a href="#" class="p_color p_hover">Fashion</a>
+                                    </li>
+                                    <li><a href="garden.html" class="p_color p_hover">Home &
+                                            Garden</a></li>
+                                    <li><a href="electron.html" class="p_color p_hover">
+                                            Electronics </a>
+                                    </li>
+                                    <li><a href="garden.html" class="p_color p_hover">
+                                            Furniture </a>
+                                    </li>
+                                    <li><a href="gadget.html" class="p_color p_hover">Health
+                                            & Beauty</a>
+                                    </li>
+                                    <li><a href="gift.html" class="p_color p_hover"> Gift
+                                            Ideas</a></li>
+                                    <li><a href="game.html" class="p_color p_hover">Toy &
+                                            Games</a></li>
+                                    <li><a href="garden.html" class="p_color p_hover">Cooking</a>
+                                    </li>
+                                    <li><a href="phone.html" class="p_color p_hover"> Smart
+                                            Phones</a></li>
+                                    <li><a href="camera.html" class="p_color p_hover">
+                                            Cameras &
+                                            Photo</a></li>
+                                    <li><a href="accessories.html" class="p_color p_hover">
+                                            Accessories</a>
+                                    </li>
+                                </ul>
+                                <div class="main">
+                                    <div class="tracking_btn">
+                                        <!-- Button trigger modal -->
+                                        <a href="#" class="btn bg_red white_color cmn_btn order_track">
+                                            Order Track
+                                        </a>
+                                    </div>
+                                    <div class="login_part">     
+                                            <a href="login.html" class="bg_red white_color cmn_btn login_id">
+                                                <i class="fa-regular fa-user"></i>
+                                                My Account
+                                            </a>
+                                        <!-- <div class="card-body">
+                                                <ul>
+                                                <li><a href="project.html" class="p_color p_hover">My Profile</a></li>
+                                                <li><a href="project.html" class="p_color p_hover">My Orders</a></li>
+                                                <li><a href="project.html" class="p_color p_hover">My WishList</a></li>
+                                                <li><a href="project.html" class="p_color p_hover">My Address</a></li>
+                                                </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- ====================================
+       Profile inof 
+=======================================-->
+    <section id="profile_info">
+        <div class="container">
+            <h4 class="breadcrumb p_color " style="font-size: 14px;"><a href="index.html" class="p_color p_hover">Home</a><i class="fa-solid fa-angle-right" style="margin:0px 5px; font-size: 12px;"></i>Blog</h4>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-5">
+                    <div class="customer_profile">
+                        <div class="card">
+                            <div class="card-header">
+                                <img width="120" height="120" style="border-radius: 50%" src="images/customer-1.jpg">
+                                <h4 class="customer_name">Cheryl Sloan</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="dashboard_author">
+                                    <h4>DASHBOARD NAVIGATION</h4>
+                                </div>
+                                <div class="mt-4">
+                                    <ul>
+                                        <li><a href="my-order.html">My Order</a></li>
+                                        <li><a href="#">WishList</a></li>
+                                        <li><a href="profile-info.html">Profile Info</a></li>
+                                        <li><a href="support.html">Support</a></li>
+                                        <li><a href="#">Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="card support_form">
+                        <div class="card-body">
+                            <form action="">
+                                <div class="mb-3">
+                                    <label class="form-label">Title*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Description*</label>
+                                    <textarea name="" class="form-control" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Image*</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-danger">Sent Request</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!--------Footer Content -------->
+
+
+<section id="serve_gutter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="serve_item_header">
+                    <h5>What We Offer</h5>
+                    <p>Our commitment to customer satisfaction is unmatched.</p>
+                </div> 
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="serve_item">
+                    <div class="img">
+                        <img src="images/delivery-truck.png" width="50" alt="">
+                    </div>
+                    <div class="content">
+                        <h5>Fast Delivery</h5>
+                        <p>Get your order with-in 7 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="serve_item">
+                    <div class="img">
+                        <img src="images/money-back-guarantee.png" width="50" alt="">
+                    </div>
+                    <div class="content">
+                        <h5>7 Days Return</h5>
+                        <p>Money back guaranteed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="serve_item">
+                    <div class="img">
+                        <img src="images/premium-quality.png" width="50" alt="">
+                    </div>
+                    <div class="content">
+                        <h5>Premium Quality</h5>
+                        <p>Experience luxury with every purchases</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==============================
+        Footer Part Start
+==================================-->
+<section id="footer_top" class="bg_black">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="left_side">
+                    <div class="footer_logo">
+                        <img src="images/footer-logo.png" style="max-width: 200px;" alt="">
+                    </div>
+                    <p class="footer_desp">KiniValo is a trusted online shop and e-commerce solution that aims to
+                        provide a seamless and enjoyable shopping experience. We focus on offering stylish and
+                        reliable products featuring popular brands and more. At KiniValo, we strive to make shopping
+                        secure, simpler, faster, and more pleasurable for our customers..</p>
+                        <div class="subscribtion">
+                            <h5>Subscribe to our newsletter for regular updates about Offers, Coupons & more</h5>
+                            <form action="">
+                                <div class="mb-3 d-flex">
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Your Email Address">
+                                    <button type="submit" class="btn btn-danger">Subscribe</button>
+                                </div>
+
+                            </form>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-4 ms-auto">
+                <div class="right_side ">
+                    <div class="follow_icon">
+                        <h5>Follow Us</h5>
+                        <ul>
+                            <li><a href="#" class="facebook facebook_hover">
+                                <i class="fab fa-facebook-f"></i>
+                            </a></li>
+                            <li><a href="#" class="twitter twitter_hover"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="instagram instagram_hover"><i class="fab fa-instagram"> </i></a></li>
+                            <li><a href="#" class="youtube youtube_hover"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#" class="linkedinf linkedinf_hover"><i class="fab fa-linkedin"> </i></a></li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-6 col-sm-5 col-md-6">
+                            <div class="img_div">
+                                <a href="#"><img src="images/play.png" class="w-100 img-fluid" alt=""> </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-5 col-md-6">
+                            <div class="img_div">
+                                <a href="#"> <img src="images/app.png" class="w-100 img-fluid" alt=""> </a>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- <div class="one_two">
+                    <div class="selectable_text">
+                        <span>Verified by DBID</span>
+                        <img src="images/Untitled.png" alt="">
+                    </div>
+                    <div class="valid_content">
+                        <p>Member ID : 757344794</p>
+                        <p>Trade License: 023500</p>
+                    </div>
+                   </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer_bottom">
+    <div class="color_footer bg_black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6 col-sm-6 col-md-3">
+                    <div class="footer_left_contetn">
+                        <h5 class="quicklinks">Quick Links</h5>
+                        <ul>
+                            <li><a  href="about.html" class="a_hover_two">About Us</a></li>
+                            <li><a href="#" class="a_hover_two">Return And Refund Policy </a></li>
+                            <li><a href="#" class="a_hover_two">Privacy Policy </a></li>
+                            <li><a href="#" class="a_hover_two">Term Conditions </a></li>
+                            <li><a href="#" class="a_hover_two">Payment Policy </a></li>
+                            <li><a href="#" class="a_hover_two">Shipping Policy </a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6  col-sm-6 col-md-3">
+                    <div class="footer_contact">
+                        <h5>contacts</h5>
+                        <ul>
+                            <li>
+                                <span>Address</span>
+                                <p>61/2 61/3, West Dhanmondi - 1209</p>
+                            </li>
+                            <li>
+                                <span>Phone</span>
+                                <p>+880 1619-458968</p>
+                            </li>
+                            <li>
+                                <span>Email</span>
+                                <p>support@kinivalo.com.bd</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6  col-sm-6 col-md-3">
+                    <div class="my_account">
+                        <h5>My Account</h5>
+                        <ul>
+                            <li><a href="login.html" class="a_hover_two">Login</a></li>
+                            <li><a href="my-order.html" class="a_hover_two">Order History</a></li>
+                            <li><a href="cart.html" class="a_hover_two">Cart</a></li>
+                            <li><a href="blog.html" class="a_hover_two">blog</a></li>
+                            <li><a href="contact.html" class="a_hover_two">Contact Us </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6  col-sm-6 col-md-3">
+                    <div class="seller_zone">
+                        <div class="one_two">
+                            <div class="selectable_text">
+                                <span>Verified by DBID</span>
+                                <img src="images/Untitled.png" alt="">
+                            </div>
+                            <div class="valid_content">
+                                <p>Member ID : 757344794</p>
+                                <p>Trade License: 023500</p>
+                            </div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer_copyright bg_black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-sm-8 col-md-8">
+                    <div class="copyright-text text-center">
+                        <p class="white_color">Copyright © 2023 Dominytech Biggest Directory All Right Reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-md-4">
+                    <img src="images/kinivalo-payment-getway.webp" class="w-100 img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- ======================
+    Footer Menu area
+=========================-->
+<footer class="d-lg-none bg_white">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="menu_item">
+                    <a href="index.html" class="a_hover_two">
+                        <i class="fa fa-home"></i>
+                    </a>
+                    <span>Home</span>
+                </div>
+            </div> 
+            <div class="col-3">
+                <div class="menu_item">
+                    <a href="shop-page.html" class="a_hover_two">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                    <span>Shop</span>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="menu_item">
+                    <a href="cart.html" class="a_hover_two">
+                        <i class="fas fa-cart-arrow-down"></i>
+                    </a>
+                    <span>Cart</span>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="menu_item">
+                    <a href="#" class="a_hover_two">
+                        <i class="far fa-user"></i>
+                    </a>
+                    <span>My Account</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<button class="cart_box d-none d-lg-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+    aria-controls="offcanvasRight">
+    <div class="">
+        <span class="total_amount">0 .TK</span>
+        <div class="cart_footer">
+            <i class="fa fa-shopping-cart " title="My Cart"> </i>
+            <span id="totalCartItems2">0 আইটেম</span>
+        </div>
+    </div>
+</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header cart_header_cls">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Products List</h5>
+        <button type="button" class="btn-close bg_black df_btn" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                class="fa-solid fa-xmark white_color"></i></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="cart_content">
+            <div class="cart_img">
+                <img src="images/product-02.webp" width="50" alt="">
+            </div>
+            <div class="text">
+                <h5 class="product_title">Women Striped Shirt Dress</h5>
+                <a href="#" class="close_slide gray close_btn p_color p_hover"><i class="fa-solid fa-xmark"></i></a>
+                <div class="size_colr">
+                    <span class="size">36</span>
+                    <span class="color">Red</span>
+                </div>
+                <span class="cart_price">৳ 1385</span>
+                <select class="mb-2 custom-select ">
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="cart_content">
+            <div class="cart_img">
+                <img src="images/product-04.webp" width="50" alt="">
+            </div>
+            <div class="text">
+                <h5 class="product_title">Women Striped Shirt Dress</h5>
+                <a href="#" class="close_slide gray close_btn p_color p_hover"><i class="fa-solid fa-xmark"></i></a>
+                <div class="size_colr">
+                    <span class="size">36</span>
+                    <span class="color">Red</span>
+                </div>
+                <span class="cart_price">৳ 1385</span>
+                <select class="mb-2 custom-select ">
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="cart_content">
+            <div class="cart_img">
+                <img src="images/product-03.webp" width="50" alt="">
+            </div>
+            <div class="text">
+                <h5 class="product_title">Women Striped Shirt Dress</h5>
+                <a href="#" class="close_slide gray close_btn p_color p_hover"><i class="fa-solid fa-xmark"></i></a>
+                <div class="size_colr">
+                    <span class="size">36</span>
+                    <span class="color">Red</span>
+                </div>
+                <span class="cart_price">৳ 1385</span>
+                <select class="mb-2 custom-select ">
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+    <div class="offcanvas-footer">
+        <div class="cart_sub_total">
+            <div class="sub">subtotal</div>
+            <div class="sub_price">৳ 4185</div>
+        </div>
+        <div class="card_btn text-center">
+            <a href="check-out.html" class="btn df_btn w-80">Proceed to Checkout</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
